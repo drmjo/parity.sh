@@ -1,0 +1,7 @@
+version: '3'
+services:
+    parity:
+        image: mjo/parity:stable-release
+        build:
+            context: .
+            dockerfile: Dockerfile

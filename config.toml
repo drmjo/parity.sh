@@ -1,0 +1,14 @@
+# This config should be placed in following path:
+#   ~/.local/share/io.parity.ethereum/config.toml
+
+[ui]
+port = 8180
+interface = "0.0.0.0"
+
+[rpc]
+port = 8545
+interface = "0.0.0.0"
+
+[websockets]
+port = 8546
+interface = "0.0.0.0"
